@@ -5,9 +5,11 @@ document.ontouchstart = function(e){
 }
 
 $(document).on('touchmove', '.kimzhua', function(e) {
+	    e.preventDefault();
+
   var xPos = e.originalEvent.touches[0].pageX;
   var yPos = e.originalEvent.touches[0].pageY;
-  $(this).css("top",yPos+"px");
+  $('.kimzhua').css("top",yPos+"px");
 });
 
 $(document).on('touchend', '.kimzhua', function(e) {  
