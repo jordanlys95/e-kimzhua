@@ -1,11 +1,14 @@
 var counter = 0;
 var kimzhua = document.querySelector('.kimzhua');
-document.body.addEventListener('touchstart', function(event) {
+document.addEventListener('touchstart', function(event) {
     event.preventDefault();
 });
-document.body.addEventListener('touchmove',function(e){
-	    e.preventDefault();
 
+document.addEventListener('touchmove', function(event) {
+    event.preventDefault();
+});
+
+kimzhua.addEventListener('touchmove',function(e){
 	var xPos = e.originalEvent.touches[0].pageX;
 	var yPos = e.originalEvent.touches[0].pageY;
 	
