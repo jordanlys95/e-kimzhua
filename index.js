@@ -1,10 +1,10 @@
 var counter = 0;
 var kimzhua = document.querySelector('.kimzhua');
-document.addEventListener('touchstart', function(event) {
+window.addEventListener('touchstart', function(event) {
     event.preventDefault();
 });
 
-document.addEventListener('touchmove', function(event) {
+window.addEventListener('touchmove', function(event) {
     event.preventDefault();
 });
 
