@@ -12,11 +12,11 @@ document.body.addEventListener('touchmove',function(e){
 	kimzhua.style.top = yPos+"px";
 })
 
-$(document).on('touchmove', '.kimzhua', function(e) {
-  var xPos = e.originalEvent.touches[0].pageX;
-  var yPos = e.originalEvent.touches[0].pageY;
-  $('.kimzhua').css("top",yPos+"px");
-});
+// $(document).on('touchmove', '.kimzhua', function(e) {
+//   var xPos = e.originalEvent.touches[0].pageX;
+//   var yPos = e.originalEvent.touches[0].pageY;
+//   $('.kimzhua').css("top",yPos+"px");
+// });
 
 $(document).on('touchend', '.kimzhua', function(e) {  
 	counter++;
