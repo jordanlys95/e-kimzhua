@@ -11,9 +11,9 @@ body::before {
   display: block;
   z-index: 1;
   background-color: #000;
-  height: 300px;
-  width: 300px;
-  border-radius: 300px;
+  height: 90vw;
+  width: 90vw;
+  border-radius: 90vw;
   background-position: center;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -23,13 +23,13 @@ body .kimzhua {
   cursor: pointer;
   position: absolute;
   display: block;
-  height: 125px;
-  width: 100px;
+  height: 100vw;
+  width: 90vw;
   background-color: #f8ecc2;
   z-index: 2;
   will-change: transform;
-  -webkit-transform: translate(calc(50vw - 50px), calc(100vh - 125px));
-          transform: translate(calc(50vw - 50px), calc(100vh - 125px));
+  -webkit-transform: translate(calc(50vw - (90vw / 2)), calc(100vh - 125px));
+          transform: translate(calc(50vw - (90vw / 2)), calc(100vh - 125px));
   opacity: 1;
 }
 body .kimzhua::before {
