@@ -1,4 +1,6 @@
-div {
+.kimzhua {
+  cusor: pointer;
+  z-index: 999
   height: 250px;
   width: 250px;
   position: fixed;
