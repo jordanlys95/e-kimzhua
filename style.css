@@ -1,3 +1,7 @@
+html,
+body {
+    overflow: hidden;
+} 
 body {
   background-image: url("https://i.pinimg.com/originals/ef/23/8b/ef238b5a703395ae88807b1e5eb4c5ad.jpg");
   overflow: hidden;
