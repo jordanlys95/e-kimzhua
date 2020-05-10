@@ -82,9 +82,9 @@ span.counter{
 position: fixed;
 display: block;
 z-index:99999;
-top: 20px;
+top: 0px;
 left: 50%;
-transform: translate(-50%,-50%);
+transform: translate(-50%);
 font-size: 3em;
 width:100vw;
 text-align: center;
