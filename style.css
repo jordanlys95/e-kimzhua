@@ -34,7 +34,7 @@ div:before {
 }
 body {
   display: fixed;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   overflow: hidden;
   background: url("https://www.webdesign.org/img_articles/22277/Grass_Texture.jpg") center / cover;
