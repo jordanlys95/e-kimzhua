@@ -33,7 +33,8 @@ div:before {
           transform: translate(-50%, -50%);
 }
 body {
-  display: fixed;
+  position: fixed;
+  display: block;
   height: 100%;
   width: 100vw;
   overflow: hidden;
