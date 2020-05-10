@@ -1,12 +1,10 @@
 var counter = 0;
 
-document.ontouchstart = function(e){
-    e.preventDefault();
-}
+document.body.addEventListener('touchstart', function(event) {
+    event.preventDefault();
+});
 
 $(document).on('touchmove', '.kimzhua', function(e) {
-	    e.preventDefault();
-
   var xPos = e.originalEvent.touches[0].pageX;
   var yPos = e.originalEvent.touches[0].pageY;
   $('.kimzhua').css("top",yPos+"px");
