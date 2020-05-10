@@ -13,7 +13,7 @@ function move(e){
   var y = e.changedTouches[0].pageY;
   console.log(x,y)
     kimzhua.style.transition = '';
-  kimzhua.style.transform = 'translate(calc(50vw - 50px), '+y+'px) scale(1) rotate(0)';
+  kimzhua.style.transform = 'translate(calc(50vw - (90vw / 2)), '+y+'px) scale(1) rotate(0)';
 }
 function end(e){
   
@@ -25,7 +25,7 @@ function end(e){
   kimzhua.style.transition = 'opacity 2s 1s, transform 3s';
   kimzhua.classList.add('released')
   var released = document.querySelector('.released');
-  released.style.transform = "translate(calc(50vw - 50px), "+y+
+  released.style.transform = "translate(calc(50vw - (90vw / 2)), "+y+
 "px) scale(.25) rotate("+dir+deg+"deg)";
   released.style.opacity = 0;
   // released.style.boxShadow = "0px 0px 0px rgba(0,0,0,0.75)";
