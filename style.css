@@ -1,0 +1,45 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/ef/23/8b/ef238b5a703395ae88807b1e5eb4c5ad.jpg");
+  overflow: hidden;
+}
+body::before {
+  content: "";
+  background-image: url("https://pandagif.com/gifs/IeiSoMTL1S.gif");
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  z-index: 1;
+  background-color: #000;
+  height: 300px;
+  width: 300px;
+  border-radius: 300px;
+  background-position: center;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-size: cover;
+}
+body .kimzhua {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  height: 125px;
+  width: 100px;
+  background-color: #f8ecc2;
+  z-index: 2;
+  will-change: transform;
+  -webkit-transform: translate(calc(50vw - 50px), calc(100vh - 125px));
+          transform: translate(calc(50vw - 50px), calc(100vh - 125px));
+  opacity: 1;
+}
+body .kimzhua::before {
+  content: "";
+  background: #cdad00;
+  width: 80%;
+  height: 80%;
+  display: block;
+  margin: 10%;
+}
+body .kimzhua .released {
+  opacity: 0;
+}
