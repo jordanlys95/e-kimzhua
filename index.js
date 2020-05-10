@@ -1,8 +1,16 @@
 var counter = 0;
-
+var kimzhua = document.querySelector('.kimzhua');
 document.body.addEventListener('touchstart', function(event) {
     event.preventDefault();
 });
+document.body.addEventListener('touchmove',function(e){
+	    e.preventDefault();
+
+	var xPos = e.originalEvent.touches[0].pageX;
+	var yPos = e.originalEvent.touches[0].pageY;
+	
+	kimzhua.style.top = yPos+"px";
+})
 
 $(document).on('touchmove', '.kimzhua', function(e) {
   var xPos = e.originalEvent.touches[0].pageX;
