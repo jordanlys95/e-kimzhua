@@ -8,7 +8,7 @@ window.addEventListener('touchmove', function(event) {
     event.preventDefault();
 });
 
-kimzhua.addEventListener('touchmove',function(e){
+document.addEventListener('touchmove',function(e){
 	var xPos = e.originalEvent.touches[0].pageX;
 	var yPos = e.originalEvent.touches[0].pageY;
 	
